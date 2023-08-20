@@ -1,1 +1,5 @@
 pytube
+Pillow
+requests
+mutagen
+moviepy
