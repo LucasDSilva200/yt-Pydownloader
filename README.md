@@ -1,8 +1,8 @@
 # yt-Pydownloader
+
 A CLI program that downloads videos from YouTube and can convert them to .mp3 music.
 
-
-usage: main.py [-h] [-V VIDEO | -M MUSIC | --showpath | -ls | -cp CHANGEPATH | -Pv VIDEOS | -Pm MUSICS] [-W WORKERS]                                                         
+usage: main.py [-h] [-V VIDEO | -M MUSIC | --showpath | -ls | -cp CHANGEPATH | -Pv VIDEOS | -Pm MUSICS] [-W WORKERS]
 
 options:
   -h, --help            show this help message and exit<br>
@@ -18,5 +18,3 @@ options:
                         The link to the video playlist you want to download.<br>
   -Pm MUSICS, --Musics MUSICS<br>
                         The link to the Playlist of Songs you want to download.<br>
-  -W WORKERS, --Workers WORKERS<br>
-                        Sets the number of workers (Default 4) to download playlists.

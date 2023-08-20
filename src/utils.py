@@ -1,13 +1,9 @@
 #!/usr/bin/env python
 
-import threading
 from pytube import YouTube, Playlist, exceptions
 from time import sleep
 
 from src.convert_to_mp3 import convert_to_mp3
-
-
-print_lock = threading.Lock()
 
 
 def download(link, path_to_save, itag):

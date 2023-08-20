@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
 import argparse
-from src.path import change_path, download_folder_search, list_files, Arrive_if_the_path_exists
+from src.path import change_path, download_folder_search, list_files,\
+      Arrive_if_the_path_exists
 from src.utils import download, download_playlist
 
 
